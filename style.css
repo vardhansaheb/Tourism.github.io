@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+header {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(taj.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#nav-top {
+  width: 100%;
+  height: 15vh;
+  background: transparent;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 0;
+}
+#nav-center {
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+#heading {
+  font-weight: bold;
+  word-spacing: 3px;
+  font-size: 3rem;
+  color: whitesmoke;
+}
+#head {
+  font-size: 3rem;
+  word-spacing: 2px;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+#button-wrapper {
+  margin-top: 1.5rem;
+}
+
+.btnone {
+  padding: 9px 25px;
+  text-decoration: none;
+  border-radius: 3px;
+  background-color: white;
+  color: #000000;
+  cursor: pointer;
+  margin: 1rem;
+  text-transform: uppercase;
+}
+
+.btntwo {
+  padding: 9px 25px;
+  text-decoration: none;
+  border-radius: 3px;
+  background-color: teal;
+  color: #ffffff;
+  cursor: pointer;
+  margin: 1rem;
+  text-transform: uppercase;
+}
+p {
+  font-size: 2rem;
+  padding-top: 3px;
+  color: whitesmoke;
+}
+
+nav .logo {
+  width: 25%;
+  text-align: center;
+}
+nav .menu {
+  width: 40%;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+}
+nav .menu a {
+  width: 25%;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+nav .menu a:first-child {
+  color: springgreen;
+}
+main {
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#logo-text {
+  font-size: 3rem;
+  color: steelblue;
+}
+.change_content:after {
+  content: "";
+  animation: changetext 10s infinite linear;
+  color: black;
+}
+@keyframes changetext {
+  0% {
+    content: "Agra";
+  }
+  20% {
+    content: "Mumbai";
+  }
+  35% {
+    content: "Hydrabad";
+  }
+  60% {
+    content: "Patna";
+  }
+  80% {
+    content: "Chandigarh";
+  }
+  100% {
+    content: "Kolkata";
+  }
+}
