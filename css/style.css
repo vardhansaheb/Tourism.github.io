@@ -126,6 +126,9 @@ main {
   35% {
     content: "Hydrabad";
   }
+  45%{
+    content: "Bangalore";
+  }
   60% {
     content: "Patna";
   }
